@@ -108,21 +108,25 @@ a {
   margin: 6px 0 0 0;
 }
 
-.content__header--title {
+.header--titles{
   color: #48494a;
   font-size: 30px;
   font-weight: 500;
   margin: -1px 0px 7px -5px;
 }
 
-.content__header--button {
-  margin-right: -18px;
+.small--button{
   color: #fff;
   font-size: 14px;
-  padding: 11px 25px 13px 26px;
+  padding: 11px 26px 13px 25px;
   background-color: #fa1818;
   border-radius: 3px;
+  margin-right: -1px;
   box-shadow: 0 13px 22px 2px rgba(250, 25, 25, 0.45);
+}
+
+.content__header--button {
+  margin-right: -19px;
 }
 
 .content__card {
@@ -176,7 +180,7 @@ a {
   margin: 10px 16px 0;
 }
 
-.title-wezom {
+.card--title {
   font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
@@ -244,7 +248,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding-top: 45px;
+  padding-top: 39px;
 }
 
 .footer__socials {
@@ -299,6 +303,10 @@ a {
   letter-spacing: 0.8px;
 }
 
+.footer__paternity--title_img{
+  margin: 0 0 1px 1px;
+}
+
 .footer__socials--link--fb {
   margin: -1px 0 0 1px;
 }
@@ -334,6 +342,120 @@ a {
 .menu__item--link:nth-child(1) {
   margin: 0 2px 0 -1px;
 }
+
+/* SECOND BLOCK */
+
+.content-2{
+  background: linear-gradient(to left,#f1f1f1 33.4%, #fafafa 0%);
+}
+
+.content-2__inner{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.oap{
+  width: 68%;
+  padding-right: 12px;
+  padding-bottom: 51px;
+  margin-right: 70px;
+}
+
+.oap__header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 51px;
+  margin-left: 1px
+}
+
+.oap__cards{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 31px;
+}
+
+.oap__card{
+  box-shadow: 0 5px 5px 1px rgba(23, 24, 25, 0.05);
+}
+
+.oap__card:first-child{
+  margin-left: -1px;
+  margin-right: 19px;
+}
+
+.oap__card--image-1,
+.oap__card--image-2{
+  width: 454px;
+  height: 248px;
+  position: relative;
+}
+
+.oap__card--image-1{
+  background: url('../img/oap-card-img-1.jpg');
+}
+.oap__card--image-2{
+  background: url('../img/oap-card-img-2.jpg');
+}
+
+.oap__card--title{
+  font-size: 16px;
+  bottom: 34px;
+  left: 18px;
+}
+
+.oap__card--info{
+  background-color: #fff;
+  position: relative;
+  height: 156px;
+}
+
+.oap__header--btn{
+  padding: 11px 30px 12px 25px;
+}
+
+.card--description,
+.desc{
+  display: flex;
+  align-items: center;
+  color: #48494a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  margin: 19px 0 0 20px;
+}
+
+.card--date{
+  color: #80868e;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 40px 22px;
+}
+
+.mailing{
+  padding-left: 79px;
+
+}
+
+.mailing__title{
+  margin: 0;
+  padding-top: 129px;
+}
+
+.mailing__subtitle{
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 1px;
+}
+
+.input__title{
+  margin: 0;
+  padding-top: 51px;
+  padding-left: 1px;
+}
+
 
 @media(max-width: 1024px) and (min-width: 769px) {
 
