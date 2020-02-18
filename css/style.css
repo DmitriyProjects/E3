@@ -91,6 +91,11 @@ a {
   font-weight: 700;
 }
 
+.menu__item--link:hover{
+  color: #ff0000;
+  transition: 0.3s;
+}
+
 .content {
   background-color: #f1f1f1;
   width: 100%;
@@ -123,6 +128,14 @@ a {
   border-radius: 3px;
   margin-right: -1px;
   box-shadow: 0 13px 22px 2px rgba(250, 25, 25, 0.45);
+}
+
+.small--button:hover{
+  background-color: #ec2b2b;
+}
+
+.small--button:focus{
+  background-color: #ff0000;
 }
 
 .content__header--button {
@@ -413,6 +426,7 @@ a {
   padding: 11px 30px 12px 25px;
 }
 
+
 .card--description,
 .desc{
   display: flex;
@@ -454,8 +468,48 @@ a {
   margin: 0;
   padding-top: 51px;
   padding-left: 1px;
+  margin-bottom: 11px;
+} 
+
+.input__field{
+  outline: none;
+  border: none;
+  box-shadow: 0 5px 5px 1px rgba(23, 24, 25, 0.05);
+  width: 107%;
+  padding: 21px 20px 19px 22px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a2a2a2;
+  letter-spacing: 0.7px;
 }
 
+.input__field::placeholder{
+  color: #a2a2a2;
+}
+
+.input__confirm-btn{
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #ff0000;
+  width: 106.4%;
+  margin: 30px 0 0 1px;
+  padding: 20px 0 19px 0;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.input__confirm-btn:hover{
+  background-color: #d40101;
+}
+
+.input__confirm-btn:focus{
+  background-color: #e42a2a;
+}
 
 @media(max-width: 1024px) and (min-width: 769px) {
 
