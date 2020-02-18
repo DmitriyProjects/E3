@@ -372,23 +372,43 @@ a {
   padding-right: 12px;
   padding-bottom: 51px;
   margin-right: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
 }
 
 .oap__header{
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: auto;
   padding-top: 51px;
-  margin-left: 1px
+}
+
+.oap__header--title{
+  
+}
+
+.oap__header--btn{
+  position: absolute;
+  right: 0;
+  padding: 9px 29px 11px 25px;
 }
 
 .oap__cards{
   display: flex;
   justify-content: space-between;
-  padding-top: 31px;
+  margin-top: 31px;
+  height: 423px;
 }
 
 .oap__card{
-  box-shadow: 0 5px 5px 1px rgba(23, 24, 25, 0.05);
+  display: flex;
+  flex-wrap: wrap;
+  width: 454px;
+  height: 248px;
 }
 
 .oap__card:first-child{
@@ -398,16 +418,16 @@ a {
 
 .oap__card--image-1,
 .oap__card--image-2{
-  width: 454px;
-  height: 248px;
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .oap__card--image-1{
-  background: url('../img/oap-card-img-1.jpg');
+  background: url('../img/oap-card-img-1.jpg')center no-repeat;
 }
 .oap__card--image-2{
-  background: url('../img/oap-card-img-2.jpg');
+  background: url('../img/oap-card-img-2.jpg')center no-repeat;
 }
 
 .oap__card--title{
@@ -419,13 +439,10 @@ a {
 .oap__card--info{
   background-color: #fff;
   position: relative;
-  height: 156px;
+  height: 175px;
+  width: 100%;
+  box-shadow: 0 5px 5px 1px rgba(23, 24, 25, 0.05);
 }
-
-.oap__header--btn{
-  padding: 11px 30px 12px 25px;
-}
-
 
 .card--description,
 .desc{
