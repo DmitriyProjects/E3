@@ -1200,8 +1200,13 @@ a {
     font-size: 10px;
   }
 
+  .content__inner{
+    padding-bottom: 30px;
+  }
+
   .content__header {
-    padding: 15px 0 10px 2px;
+    padding: 20px 0 20px 0;
+    justify-content: center;
   }
 
   .content__header--title {
@@ -1234,15 +1239,165 @@ a {
   }
 
   .card:nth-child(2) {
-    margin: 15px 0;
+    margin: 25px 0;
   }
 
   .card:last-child {
-    margin: 15px 0 0 0;
+    margin: 25px 0 0 0;
   }
 
   .content__card {
     padding-bottom: 20px;
+  }
+
+  .button__for__pc {
+    display: none;
+  }
+
+  .button__for__phone {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .small__phone__button {
+    width: 50%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  .container-2 {
+    padding: 0;
+  }
+
+  .content-2__inner {
+    flex-wrap: wrap;
+    background-color: #fafafa;
+  }
+
+  .oap {
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 30px;
+  }
+
+  .oap__header {
+    padding-top: 25px;
+    justify-content: center;
+  }
+
+  .oap__header--title {
+    margin-left: 0;
+    font-size: 27px;
+  }
+
+  .oap__cards {
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 850px;
+  }
+
+  .oap__card {
+    width: 325px;
+    height: 223px;
+    margin: 0;
+  }
+
+  .oap__card--info{
+    height: 190px;
+  }
+
+  .oap__card:first-child {
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .oap__card:last-child {
+    margin-right: 0;
+  }
+
+  .oap__card--title {
+    bottom: 10px;
+    left: 15px;
+  }
+
+  .card--description {
+    margin: 10px 11px 0 15px;
+  }
+
+  .card--date {
+    padding: 0 0 15px 15px;
+  }
+
+  .button__for__phone-2 {
+    position: relative;
+    margin: 30px auto;
+  }
+  
+  .small__phone__button-2 {
+    position: absolute;
+    bottom: 0;
+    width: 165px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .mailing {
+    width: 100%;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    padding: 25px 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .mailing__title {
+    padding: 0;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+  }
+
+  .desc{
+    font-size: 16px;
+  }
+
+  .mailing__subtitle {
+    margin: 0;
+    padding: 20px 0 10px 0;
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+  }
+
+  .mailing__input {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .input__title {
+    padding: 10px 0;
+  }
+
+  .input__field {
+    width: 80%;
+    padding: 16px 20px;
+  }
+
+  .input__confirm-btn {
+    width: 70%;
+    margin: 25px 0 0;
+    padding: 14px;
   }
 
   .footer {
@@ -1250,25 +1405,25 @@ a {
   }
 
   .footer__socials {
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 0;
   }
 
   .footer__socials--title {
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 13px;
+    margin-bottom: 15px;
   }
 
   .footer__socials--img {
-    width: 9px;
-    height: 11px;
+    width: 14px;
+    height: 17px;
     margin-right: -10px;
   }
 
   .footer__paternity {
     margin-bottom: 0;
     margin-top: -32px;
-    margin-right: 40px;
+    margin-right: 10px;
   }
 
 }
