@@ -1072,7 +1072,7 @@ a {
     position: relative;
     margin: 30px auto;
   }
-  
+
   .small__phone__button-2 {
     position: absolute;
     bottom: 0;
@@ -1097,7 +1097,7 @@ a {
     text-align: center;
   }
 
-  .desc{
+  .desc {
     font-size: 16px;
   }
 
@@ -1200,7 +1200,7 @@ a {
     font-size: 10px;
   }
 
-  .content__inner{
+  .content__inner {
     padding-bottom: 30px;
   }
 
@@ -1308,7 +1308,7 @@ a {
     margin: 0;
   }
 
-  .oap__card--info{
+  .oap__card--info {
     height: 190px;
   }
 
@@ -1338,7 +1338,7 @@ a {
     position: relative;
     margin: 30px auto;
   }
-  
+
   .small__phone__button-2 {
     position: absolute;
     bottom: 0;
@@ -1363,7 +1363,7 @@ a {
     text-align: center;
   }
 
-  .desc{
+  .desc {
     font-size: 16px;
   }
 
@@ -1415,9 +1415,9 @@ a {
   }
 
   .footer__socials--img {
-    width: 14px;
-    height: 17px;
-    margin-right: -10px;
+    width: 17px;
+    height: 19px;
+    margin-right: -16px;
   }
 
   .footer__paternity {
@@ -1426,4 +1426,277 @@ a {
     margin-right: 10px;
   }
 
+}
+
+@media (max-width:320px) {
+  .header {
+    padding: 3px 0 2px 0;
+  }
+
+  .header__logo {
+    padding-top: 5px;
+    margin-left: 5px;
+  }
+
+  .header__menu {
+    margin-right: 10px;
+  }
+
+  .header__menu--item {
+    margin-right: 8px;
+  }
+
+  .header__menu--item:first-child {
+    margin-right: 15px;
+  }
+
+  .header__menu--item:nth-child(2) {
+    margin-right: 15px;
+  }
+
+  .header__menu--item:nth-child(3) {
+    margin-right: 15px;
+  }
+
+  .header__menu--item:last-child {
+    margin-right: 0;
+  }
+
+  .menu__item--link {
+    font-size: 10px;
+  }
+
+  .content__inner {
+    padding-bottom: 30px;
+  }
+
+  .content__header {
+    padding: 20px 0 20px 0;
+    justify-content: center;
+  }
+
+  .content__header--title {
+    font-size: 20px;
+    padding-top: 5px;
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+
+  .content__header--button {
+    margin-top: 3px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 8px;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+  }
+
+  .card {
+    margin: 10px 0;
+  }
+
+  .card:first-child {
+    margin: 0;
+  }
+
+  .card:nth-child(2) {
+    margin: 25px 0;
+  }
+
+  .card:last-child {
+    margin: 25px 0 0 0;
+  }
+
+  .content__card {
+    padding-bottom: 20px;
+  }
+
+  .button__for__pc {
+    display: none;
+  }
+
+  .button__for__phone {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  }
+
+  .small__phone__button {
+    width: 60%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  .container-2 {
+    padding: 0;
+  }
+
+  .content-2__inner {
+    flex-wrap: wrap;
+    background-color: #fafafa;
+  }
+
+  .oap {
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 10px;
+  }
+
+  .oap__header {
+    padding-top: 20px;
+    justify-content: center;
+  }
+
+  .oap__header--title {
+    margin-left: 0;
+    font-size: 25px;
+  }
+
+  .oap__cards {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 850px;
+  }
+
+  .oap__card {
+    width: 300px;
+    height: 223px;
+    margin: 0;
+  }
+
+  .oap__card--info {
+    height: 190px;
+  }
+
+  .oap__card:first-child {
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .oap__card:last-child {
+    margin-right: 0;
+  }
+
+  .oap__card--title {
+    bottom: 10px;
+    left: 15px;
+  }
+
+  .card--description {
+    margin: 10px 11px 0 15px;
+  }
+
+  .card--date {
+    padding: 0 0 15px 15px;
+  }
+
+  .button__for__phone-2 {
+    position: relative;
+    margin: 25px auto;
+  }
+
+  .small__phone__button-2 {
+    position: absolute;
+    bottom: 0;
+    width: 165px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .mailing {
+    width: 100%;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    padding: 25px 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .mailing__title {
+    padding: 0;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+  }
+
+  .desc {
+    font-size: 13px;
+  }
+
+  .mailing__title {
+    font-size: 23px;
+  }
+
+  .mailing__subtitle {
+    margin: 0;
+    padding: 20px 0 10px 0;
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+  }
+
+  .mailing__input {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .input__title {
+    padding: 5px 0;
+  }
+
+  .input__field {
+    width: 100%;
+    padding: 13px 15px;
+  }
+
+  .input__confirm-btn {
+    width: 60%;
+    margin: 20px 0 0;
+    padding: 12px;
+  }
+
+  .footer {
+    padding-top: 20px;
+  }
+
+  .footer__socials {
+    margin-left: 30px;
+    margin-top: 0;
+  }
+
+  .footer__socials--links {
+    margin-bottom: 20px;
+  }
+
+  .footer__socials--title {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .footer__socials--img {
+    width: 17px;
+    height: 19px;
+    margin-right: -16px;
+  }
+
+  .footer__paternity {
+    margin-bottom: 0;
+    margin-top: -24px;
+    margin-right: -5px;
+  }
 }
